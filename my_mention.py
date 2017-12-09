@@ -94,9 +94,9 @@ def shopping_func(message):
     
 @respond_to('見る')
 def sightseeing_func(message):
-    sightseening = ["慶應義塾大学 keio.ac.jp",
+    sightseeing = ["慶應義塾大学 keio.ac.jp",
                     "東京タワー https://www.tokyotower.co.jp",
                     "芝公園 https://www.tokyo-park.or.jp/park/format/index001.html"
         ]
-        sightseeing = random.choice(sightseeing)
-        message.reply(sightseeing)
+    sightseeing = random.choice(sightseeing)
+    message.reply(sightseeing)
